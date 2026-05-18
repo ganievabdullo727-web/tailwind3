@@ -10,6 +10,7 @@
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-amber-400: oklch(82.8% 0.189 84.429);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-green-400: oklch(79.2% 0.209 151.711);
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-blue-700: oklch(48.8% 0.243 264.376);
@@ -186,6 +187,9 @@
   .mt-\[00px\] {
     margin-top: 00px;
   }
+  .mt-\[1r500px\] {
+    margin-top: 1r500px;
+  }
   .mt-\[10px\] {
     margin-top: 10px;
   }
@@ -225,6 +229,15 @@
   .mt-\[1000px\] {
     margin-top: 1000px;
   }
+  .mt-\[1400px\] {
+    margin-top: 1400px;
+  }
+  .mt-\[1500px\] {
+    margin-top: 1500px;
+  }
+  .mt-\[5000px\] {
+    margin-top: 5000px;
+  }
   .mb-\[10px\] {
     margin-bottom: 10px;
   }
@@ -237,6 +250,9 @@
   .mb-\[80px\] {
     margin-bottom: 80px;
   }
+  .ml-\[0\] {
+    margin-left: 0;
+  }
   .ml-\[45px\] {
     margin-left: 45px;
   }
@@ -248,6 +264,9 @@
   }
   .hidden {
     display: none;
+  }
+  .h-\[20px\] {
+    height: 20px;
   }
   .h-\[40px\] {
     height: 40px;
@@ -275,6 +294,9 @@
   }
   .h-\[280px\] {
     height: 280px;
+  }
+  .h-\[290px\] {
+    height: 290px;
   }
   .h-\[300px\] {
     height: 300px;
@@ -318,6 +340,9 @@
   .w-\[10px\] {
     width: 10px;
   }
+  .w-\[20px\] {
+    width: 20px;
+  }
   .w-\[65\%\] {
     width: 65%;
   }
@@ -357,6 +382,9 @@
   .w-\[100px\] {
     width: 100px;
   }
+  .w-\[109px\] {
+    width: 109px;
+  }
   .w-\[140px\] {
     width: 140px;
   }
@@ -366,11 +394,23 @@
   .w-\[180px\] {
     width: 180px;
   }
+  .w-\[190px\] {
+    width: 190px;
+  }
   .w-\[200px\] {
     width: 200px;
   }
+  .w-\[210px\] {
+    width: 210px;
+  }
+  .w-\[220px\] {
+    width: 220px;
+  }
   .w-\[240px\] {
     width: 240px;
+  }
+  .w-\[290px\] {
+    width: 290px;
   }
   .w-\[300px\] {
     width: 300px;
@@ -515,6 +555,9 @@
   .bg-amber-400 {
     background-color: var(--color-amber-400);
   }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
   .bg-blue-400 {
     background-color: var(--color-blue-400);
   }
@@ -628,6 +671,11 @@
       margin-top: 0px;
     }
   }
+  .lg\:mt-\[1\] {
+    @media (width >= 64rem) {
+      margin-top: 1;
+    }
+  }
   .lg\:mt-\[1px\] {
     @media (width >= 64rem) {
       margin-top: 1px;
@@ -656,6 +704,11 @@
   .lg\:mt-\[300px\] {
     @media (width >= 64rem) {
       margin-top: 300px;
+    }
+  }
+  .lg\:mt-\[1000px\] {
+    @media (width >= 64rem) {
+      margin-top: 1000px;
     }
   }
   .lg\:block {
